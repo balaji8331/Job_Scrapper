@@ -1,6 +1,7 @@
+import { INDIA_EMPLOYERS } from "@/lib/constants";
 import { isRemoteText, stripHtml } from "@/lib/text";
 import type { JobSearchQuery, NormalizedJob } from "@/lib/types";
-import { fetchJson } from "./http";
+import { fetchJson, resolveSearchCities } from "./http";
 import type { JobSource } from "./types";
 
 interface AdzunaResult {
@@ -30,53 +31,68 @@ function salaryText(job: NonNullable<AdzunaResult["results"]>[number]): string |
   return null;
 }
 
+function mapAdzunaJobs(batches: Array<AdzunaResult | null>): NormalizedJob[] {
+  const jobs: NormalizedJob[] = [];
+  for (const batch of batches) {
+    for (const item of batch?.results ?? []) {
+      const location = item.location?.display_name ?? "";
+      const description = stripHtml(item.description);
+      jobs.push({
+        source: "adzuna",
+        externalId: String(item.id),
+        title: item.title ?? "Untitled",
+        company: item.company?.display_name ?? "Unknown",
+        location,
+        applyUrl: item.redirect_url ?? "",
+        description,
+        salary: salaryText(item),
+        postedAt: item.created ?? null,
+        remote: isRemoteText(`${location} ${item.title} ${description}`),
+        tags: item.category?.label ? [item.category.label] : [],
+      });
+    }
+  }
+  return jobs.filter((job) => job.applyUrl);
+}
+
+async function searchAdzuna(what: string, where: string, pages: number[]): Promise<NormalizedJob[]> {
+  const appId = process.env.ADZUNA_APP_ID;
+  const appKey = process.env.ADZUNA_APP_KEY;
+  if (!appId || !appKey) return [];
+  const batches = await Promise.all(
+    pages.map((page) => {
+      const params = new URLSearchParams({
+        app_id: appId,
+        app_key: appKey,
+        results_per_page: "50",
+        what,
+        where,
+        content: "1",
+      });
+      return fetchJson<AdzunaResult>(
+        `https://api.adzuna.com/v1/api/jobs/in/search/${page}?${params.toString()}`,
+        {},
+        7000,
+      );
+    }),
+  );
+  return mapAdzunaJobs(batches);
+}
+
 export const adzunaSource: JobSource = {
   id: "adzuna",
   async search(query: JobSearchQuery): Promise<NormalizedJob[]> {
-    const appId = process.env.ADZUNA_APP_ID;
-    const appKey = process.env.ADZUNA_APP_KEY;
-    if (!appId || !appKey) return [];
-
-    const where = query.location || query.cities?.[0] || "india";
-    const pages = [1, 2];
+    const cities = resolveSearchCities(query);
     const batches = await Promise.all(
-      pages.map((page) => {
-        const params = new URLSearchParams({
-          app_id: appId,
-          app_key: appKey,
-          results_per_page: "50",
-          what: query.role,
-          where,
-          content: "1",
-        });
-        return fetchJson<AdzunaResult>(
-          `https://api.adzuna.com/v1/api/jobs/in/search/${page}?${params.toString()}`,
-          {},
-          7000,
-        );
-      }),
+      cities.map((city) => searchAdzuna(query.role, city, [1])),
     );
-
-    const jobs: NormalizedJob[] = [];
-    for (const batch of batches) {
-      for (const item of batch?.results ?? []) {
-        const location = item.location?.display_name ?? "";
-        const description = stripHtml(item.description);
-        jobs.push({
-          source: "adzuna",
-          externalId: String(item.id),
-          title: item.title ?? "Untitled",
-          company: item.company?.display_name ?? "Unknown",
-          location,
-          applyUrl: item.redirect_url ?? "",
-          description,
-          salary: salaryText(item),
-          postedAt: item.created ?? null,
-          remote: isRemoteText(`${location} ${item.title} ${description}`),
-          tags: item.category?.label ? [item.category.label] : [],
-        });
-      }
-    }
-    return jobs.filter((job) => job.applyUrl);
+    return batches.flat();
   },
 };
+
+export async function searchIndiaEmployers(query: JobSearchQuery): Promise<NormalizedJob[]> {
+  const batches = await Promise.all(
+    INDIA_EMPLOYERS.map((company) => searchAdzuna(`${query.role} ${company}`, "India", [1])),
+  );
+  return batches.flat();
+}

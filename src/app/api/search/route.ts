@@ -3,7 +3,7 @@ import { EXPERIENCE_LEVELS } from "@/lib/types";
 import { DEFAULT_USER_ID } from "@/lib/user";
 import { runSearchAndQueue } from "@/server/applications/queue";
 import { getProfile } from "@/server/db/profile";
-import { jsonError, requireSupabase } from "@/server/http";
+import { describeFailure, jsonError, requireSupabase } from "@/server/http";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -39,6 +39,6 @@ export async function POST(request: Request) {
     });
     return NextResponse.json(result);
   } catch (error) {
-    return jsonError(error instanceof Error ? error.message : "Search failed", 500);
+    return jsonError(describeFailure(error, "Search failed"), 500);
   }
 }

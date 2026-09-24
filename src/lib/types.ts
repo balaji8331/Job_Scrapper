@@ -16,6 +16,7 @@ export const JOB_SOURCES = [
   "workable",
   "jsearch",
   "import",
+  "crawler",
 ] as const;
 
 export type JobSourceId = (typeof JOB_SOURCES)[number];
@@ -51,6 +52,10 @@ export interface NormalizedJob {
   postedAt?: string | null;
   remote: boolean;
   tags: string[];
+  companyId?: string | null;
+  sourceUrl?: string | null;
+  contentHash?: string | null;
+  employmentType?: string | null;
 }
 
 export interface ExperienceItem {

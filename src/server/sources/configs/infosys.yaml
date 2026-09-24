@@ -1,0 +1,34 @@
+name: Infosys
+slug: infosys
+career_url: https://www.infosys.com/careers/
+country: India
+preferred_cities:
+  - Bengaluru
+  - Hyderabad
+  - Chennai
+preferred_roles:
+  - Backend Engineer
+  - Software Engineer
+  - Full Stack Engineer
+job_link_patterns:
+  - /job/
+  - /jobs/
+  - /career
+  - /opportunities/
+pagination:
+  type: button
+  selector_text: Next
+portal_hints:
+  - infosys.com/careers
+  - career.infosys.com
+fields:
+  title:
+    selectors:
+      - h1
+  location:
+    selectors:
+      - "[class*='location']"
+  description:
+    selectors:
+      - "[class*='description']"
+      - article

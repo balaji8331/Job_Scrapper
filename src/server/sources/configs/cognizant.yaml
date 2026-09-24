@@ -1,0 +1,32 @@
+name: Cognizant
+slug: cognizant
+career_url: https://careers.cognizant.com/in/en
+country: India
+preferred_cities:
+  - Bengaluru
+  - Hyderabad
+  - Chennai
+preferred_roles:
+  - Backend Engineer
+  - Software Engineer
+  - Full Stack Engineer
+job_link_patterns:
+  - /job/
+  - /jobs/
+  - /requisition
+pagination:
+  type: button
+  selector_text: Next
+portal_hints:
+  - careers.cognizant.com
+  - cognizant.com
+fields:
+  title:
+    selectors:
+      - h1
+  location:
+    selectors:
+      - "[class*='location']"
+  description:
+    selectors:
+      - "[class*='description']"

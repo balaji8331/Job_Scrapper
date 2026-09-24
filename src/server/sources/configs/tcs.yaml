@@ -1,0 +1,35 @@
+name: TCS
+slug: tcs
+career_url: https://www.tcs.com/careers
+country: India
+preferred_cities:
+  - Bengaluru
+  - Hyderabad
+  - Chennai
+preferred_roles:
+  - Backend Engineer
+  - Software Engineer
+  - Full Stack Engineer
+job_link_patterns:
+  - /job/
+  - /jobs/
+  - /career
+  - /opportunities/
+pagination:
+  type: button
+  selector_text: Next
+portal_hints:
+  - tcs.com/careers
+  - nextstep.tcs.com
+fields:
+  title:
+    selectors:
+      - h1
+  location:
+    selectors:
+      - "[class*='location']"
+      - "[data-testid*='location']"
+  description:
+    selectors:
+      - "[class*='description']"
+      - article

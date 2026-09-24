@@ -1,24 +1,70 @@
-import { INDIA_LOCATION_HINTS } from "@/lib/constants";
+import {
+  CITY_ALIASES,
+  FOCUS_CITIES,
+  FOREIGN_LOCATION_MARKERS,
+  INDIA_LOCATION_HINTS,
+} from "@/lib/constants";
 import { isRemoteText } from "@/lib/text";
 import type { JobSearchQuery, NormalizedJob } from "@/lib/types";
 
-export function matchesIndia(job: NormalizedJob, query: JobSearchQuery): boolean {
-  const haystack = `${job.location} ${job.title} ${job.description}`.toLowerCase();
-  const inIndia = INDIA_LOCATION_HINTS.some((hint) => haystack.includes(hint));
-  const remote = job.remote || isRemoteText(haystack);
-
-  if (inIndia) {
-    if (query.location) {
-      return haystack.includes(query.location.toLowerCase()) || remote;
-    }
-    if (query.cities && query.cities.length > 0) {
-      return query.cities.some((city) => haystack.includes(city.toLowerCase())) || remote;
-    }
-    return true;
+export function cityAliases(city: string): string[] {
+  const key = city.trim().toLowerCase();
+  for (const [name, aliases] of Object.entries(CITY_ALIASES)) {
+    if (name === key || aliases.includes(key)) return aliases;
   }
+  return key ? [key] : [];
+}
 
-  if (query.remoteOk !== false && remote) return true;
-  return false;
+export function sameCity(left: string, right: string): boolean {
+  const aliases = new Set(cityAliases(left));
+  return cityAliases(right).some((alias) => aliases.has(alias));
+}
+
+export function resolveSearchCities(query: JobSearchQuery): string[] {
+  const selected = (query.cities ?? []).map((city) => city.trim()).filter(Boolean);
+  const seeds = selected.length ? selected : query.location?.trim() ? [query.location.trim()] : [...FOCUS_CITIES];
+  if (seeds.some((city) => FOCUS_CITIES.some((focus) => sameCity(city, focus)))) {
+    return [...FOCUS_CITIES];
+  }
+  return seeds;
+}
+
+function mentions(text: string, needle: string): boolean {
+  return text.includes(needle);
+}
+
+function isIndiaText(text: string): boolean {
+  if (mentions(text, "indianapolis")) return false;
+  return INDIA_LOCATION_HINTS.some((hint) => mentions(text, hint));
+}
+
+function isForeignLocation(location: string): boolean {
+  if (/\b(uk|usa|uae)\b/.test(location)) return true;
+  return FOREIGN_LOCATION_MARKERS.some((marker) => mentions(location, marker));
+}
+
+export function matchesIndia(job: NormalizedJob, query: JobSearchQuery): boolean {
+  const location = job.location.toLowerCase();
+  const blob = `${location} ${job.title} ${job.description.slice(0, 500)}`.toLowerCase();
+  const indiaInLocation = isIndiaText(location);
+  if (location && isForeignLocation(location) && !indiaInLocation) return false;
+  if (!indiaInLocation && !isIndiaText(blob)) return false;
+
+  const cities = resolveSearchCities(query);
+  const needles = cities.flatMap(cityAliases);
+  const inRequestedCity = needles.some((needle) =>
+    needle.length <= 3 ? mentions(location, needle) : mentions(location, needle) || mentions(blob, needle),
+  );
+  if (inRequestedCity) return true;
+
+  const remote = job.remote || isRemoteText(location);
+  if (query.remoteOk === false || !remote || !isIndiaText(blob)) return false;
+  const pinnedElsewhere = Object.values(CITY_ALIASES).some((aliases) => {
+    const inThisCity = aliases.some((alias) => mentions(location, alias));
+    const requested = aliases.some((alias) => needles.includes(alias));
+    return inThisCity && !requested;
+  });
+  return !pinnedElsewhere;
 }
 
 export function matchesRole(job: NormalizedJob, role: string): boolean {

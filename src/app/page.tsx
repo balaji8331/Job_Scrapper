@@ -1,5 +1,5 @@
-import { TodayView } from "@/components/TodayView";
+import { DashboardView } from "@/components/DashboardView";
 
 export default function HomePage() {
-  return <TodayView />;
+  return <DashboardView />;
 }

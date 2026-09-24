@@ -17,7 +17,7 @@ export async function runSearchAndQueue(input: {
   cities?: string[];
   profile: Profile | null;
 }) {
-  const { jobs, sourceCounts } = await searchAllSources({
+  const { jobs, sourceCounts, harvestedCompanies } = await searchAllSources({
     role: input.role,
     level: input.level,
     location: input.location,
@@ -52,6 +52,7 @@ export async function runSearchAndQueue(input: {
     found: jobs.length,
     ranked: ranked.length,
     sourceCounts,
+    harvestedCompanies: harvestedCompanies ?? 0,
     ...queue,
   };
 }

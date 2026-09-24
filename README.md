@@ -17,7 +17,7 @@ Jio Gemini Pro is the consumer Gemini app. It does not provide API credits. Use 
 ## Setup
 
 1. Create a free [Supabase](https://supabase.com) project.
-2. In the SQL editor, run [`supabase/migrations/001_init.sql`](supabase/migrations/001_init.sql).
+2. In the SQL editor, run [`supabase/migrations/001_init.sql`](supabase/migrations/001_init.sql), then [`supabase/migrations/002_companies_crawler.sql`](supabase/migrations/002_companies_crawler.sql), then [`supabase/migrations/003_company_candidates.sql`](supabase/migrations/003_company_candidates.sql).
 3. Copy [`.env.example`](.env.example) to `.env.local` and fill:
 
 ```bash
@@ -31,6 +31,17 @@ GEMINI_API_KEY=
 
 Adzuna keys: [developer.adzuna.com](https://developer.adzuna.com/). Company portals work even without Adzuna.
 
+Crawl India MNC career portals (Playwright fallback):
+
+```bash
+npm run crawl -- --slug=accenture --max=20
+npm run crawl -- --slug=wipro --max=20
+```
+
+Or from the **Sources** UI: **Sync seed** (~500 India employers), **Resolve URLs**, paste any career URL, then **Crawl next 20**. Jobs land in **Today's queue → Company crawl**.
+
+Or `POST /api/crawl` with `{ "mode": "pending", "limit": 20 }` / `{ "slug": "accenture", "maxJobs": 15 }`.
+
 4. Install and run:
 
 ```bash
@@ -39,6 +50,16 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000). Fill **Profile**, then **Build today's 40**.
+
+## Pages
+
+| Route | Purpose |
+| --- | --- |
+| `/` | Dashboard: daily progress, funnel, connected sources, setup checklist |
+| `/queue` | Today's ranked queue, search filters, resume generation, link import |
+| `/tracker` | Pipeline board across queued → saved → applied → interview → offer → rejected |
+| `/profile` | Master resume: identity, positioning, experience, education, projects |
+| `/sources` | Company career portals: paste URL, sync India seed, detect ATS, batch crawl |
 
 ## Daily workflow
 

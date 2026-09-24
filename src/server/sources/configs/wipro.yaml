@@ -1,0 +1,35 @@
+name: Wipro
+slug: wipro
+career_url: https://careers.wipro.com/viewalljobs/
+country: India
+preferred_cities:
+  - Bengaluru
+  - Hyderabad
+  - Chennai
+preferred_roles:
+  - Backend Engineer
+  - Software Engineer
+  - Full Stack Engineer
+job_link_patterns:
+  - /job/
+  - /jobs/
+  - /jobdetail
+  - /viewalljobs
+pagination:
+  type: button
+  selector_text: Next
+portal_hints:
+  - careers.wipro.com
+  - wipro.com
+fields:
+  title:
+    selectors:
+      - h1
+  location:
+    selectors:
+      - "[class*='location']"
+      - "[data-testid='job-location']"
+  description:
+    selectors:
+      - ".job-description"
+      - "[class*='description']"

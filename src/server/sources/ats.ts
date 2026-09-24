@@ -188,3 +188,118 @@ export async function searchWorkable(): Promise<NormalizedJob[]> {
   );
   return results.flat().filter((job) => job.applyUrl);
 }
+
+/** Fetch a single public ATS board by slug (used when portal detector finds an ATS). */
+export async function fetchAtsBoardJobs(input: {
+  portalType: "greenhouse" | "lever" | "ashby" | "workable";
+  atsSlug: string;
+  companyName: string;
+}): Promise<NormalizedJob[]> {
+  const { portalType, atsSlug, companyName } = input;
+  if (portalType === "greenhouse") {
+    const data = await fetchJson<GreenhouseBoard>(
+      `https://boards-api.greenhouse.io/v1/boards/${atsSlug}/jobs`,
+    );
+    return (data?.jobs ?? [])
+      .map((job) => {
+        const location = job.location?.name ?? "";
+        return {
+          source: "greenhouse" as const,
+          externalId: String(job.id),
+          title: job.title ?? "Untitled",
+          company: companyName,
+          location,
+          applyUrl: job.absolute_url ?? "",
+          description: "",
+          salary: null,
+          postedAt: job.updated_at ?? null,
+          remote: isRemoteText(location),
+          tags: [],
+        } satisfies NormalizedJob;
+      })
+      .filter((job) => job.applyUrl);
+  }
+  if (portalType === "lever") {
+    const data = await fetchJson<LeverPosting[]>(
+      `https://api.lever.co/v0/postings/${atsSlug}?mode=json`,
+    );
+    return (data ?? [])
+      .map((job) => {
+        const location = job.categories?.location ?? "";
+        return {
+          source: "lever" as const,
+          externalId: job.id ?? `${atsSlug}-${job.text}`,
+          title: job.text ?? "Untitled",
+          company: companyName,
+          location,
+          applyUrl: job.applyUrl || job.hostedUrl || "",
+          description: stripHtml(job.descriptionPlain || job.description),
+          salary: null,
+          postedAt: job.createdAt ? new Date(job.createdAt).toISOString() : null,
+          remote:
+            job.workplaceType === "remote" ||
+            isRemoteText(`${location} ${job.workplaceType}`),
+          tags: [job.categories?.team, job.categories?.commitment].filter(
+            (tag): tag is string => Boolean(tag),
+          ),
+        } satisfies NormalizedJob;
+      })
+      .filter((job) => job.applyUrl);
+  }
+  if (portalType === "ashby") {
+    const data = await fetchJson<AshbyBoard>(
+      `https://api.ashbyhq.com/posting-api/job-board/${atsSlug}?includeCompensation=true`,
+    );
+    return (data?.jobs ?? [])
+      .map((job) => {
+        const location = job.locationName || job.location || "";
+        return {
+          source: "ashby" as const,
+          externalId: job.id ?? `${atsSlug}-${job.title}`,
+          title: job.title ?? "Untitled",
+          company: companyName,
+          location,
+          applyUrl: job.applyUrl || job.jobUrl || "",
+          description: stripHtml(job.descriptionPlain || job.descriptionHtml),
+          salary: null,
+          postedAt: job.publishedAt ?? null,
+          remote:
+            Boolean(job.isRemote) ||
+            job.workplaceType === "Remote" ||
+            isRemoteText(location),
+          tags: job.departmentName ? [job.departmentName] : [],
+        } satisfies NormalizedJob;
+      })
+      .filter((job) => job.applyUrl);
+  }
+  const data = await fetchJson<WorkableWidget>(
+    `https://apply.workable.com/api/v1/widget/accounts/${atsSlug}?details=true`,
+  );
+  return (data?.jobs ?? [])
+    .map((job) => {
+      const loc =
+        typeof job.location === "string"
+          ? job.location
+          : [job.location?.city, job.location?.country].filter(Boolean).join(", ");
+      return {
+        source: "workable" as const,
+        externalId: String(job.shortcode ?? job.id ?? `${atsSlug}-${job.title}`),
+        title: job.title ?? "Untitled",
+        company: companyName,
+        location: loc,
+        applyUrl:
+          job.url ||
+          (job.shortcode ? `https://apply.workable.com/${atsSlug}/j/${job.shortcode}/` : ""),
+        description: stripHtml(job.description),
+        salary: null,
+        postedAt: job.created_at ?? null,
+        remote:
+          (typeof job.location === "object" && Boolean(job.location?.telecommuting)) ||
+          isRemoteText(loc),
+        tags: [job.department, job.employment_type].filter(
+          (tag): tag is string => Boolean(tag),
+        ),
+      } satisfies NormalizedJob;
+    })
+    .filter((job) => job.applyUrl);
+}

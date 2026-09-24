@@ -25,6 +25,12 @@ export async function upsertJobs(jobs: NormalizedJob[]): Promise<Map<string, str
     remote: job.remote,
     tags: job.tags,
     raw: job,
+    company_id: job.companyId ?? null,
+    source_url: job.sourceUrl ?? job.applyUrl,
+    content_hash: job.contentHash ?? null,
+    employment_type: job.employmentType ?? "",
+    last_seen_at: new Date().toISOString(),
+    status: "active",
   }));
 
   const { data, error } = await supabase
@@ -98,19 +104,20 @@ export async function rebuildTodayQueue(userId: string, jobIdsInRankOrder: strin
       !selected.includes(row.job_id as string),
   );
   if (staleQueued.length) {
-    await supabase
+    const { error } = await supabase
       .from("applications")
       .update({ status: "saved", queue_date: null, updated_at: new Date().toISOString() })
       .in(
         "id",
         staleQueued.map((row) => row.id),
       );
+    if (error) throw error;
   }
 
   for (const jobId of selected) {
     const current = byJob.get(jobId);
     if (current) {
-      await supabase
+      const { error } = await supabase
         .from("applications")
         .update({
           status: current.status === "applied" ? current.status : "queued",
@@ -118,13 +125,15 @@ export async function rebuildTodayQueue(userId: string, jobIdsInRankOrder: strin
           updated_at: new Date().toISOString(),
         })
         .eq("id", current.id);
+      if (error) throw error;
     } else {
-      await supabase.from("applications").insert({
+      const { error } = await supabase.from("applications").insert({
         user_id: userId,
         job_id: jobId,
         status: "queued",
         queue_date: today,
       });
+      if (error) throw error;
     }
   }
 
@@ -135,7 +144,7 @@ export async function rebuildTodayQueue(userId: string, jobIdsInRankOrder: strin
     .eq("status", "applied")
     .gte("applied_at", `${today}T00:00:00.000Z`);
 
-  await supabase.from("daily_stats").upsert(
+  const { error: statsError } = await supabase.from("daily_stats").upsert(
     {
       user_id: userId,
       stat_date: today,
@@ -145,6 +154,7 @@ export async function rebuildTodayQueue(userId: string, jobIdsInRankOrder: strin
     },
     { onConflict: "user_id,stat_date" },
   );
+  if (statsError) throw statsError;
 
   return { queued: selected.length, applied: appliedCount ?? 0 };
 }
@@ -335,4 +345,149 @@ export async function updateApplication(
 export async function importJob(job: NormalizedJob) {
   const ids = await upsertJobs([job]);
   return ids.get(`${job.source}:${job.externalId}`);
+}
+
+/** Recent company-crawl results — separate from the ranked daily queue. */
+export async function listCrawlerInbox(
+  userId: string,
+  limit = 80,
+): Promise<QueueJob[]> {
+  const supabase = getServiceClient();
+  const { data, error } = await supabase
+    .from("jobs")
+    .select(
+      "id, source, title, company, location, apply_url, description, salary, remote, tags, last_seen_at",
+    )
+    .eq("source", "crawler")
+    .eq("status", "active")
+    .order("last_seen_at", { ascending: false })
+    .limit(limit);
+  if (error) throw error;
+  if (!data?.length) return [];
+
+  const jobIds = data.map((row) => row.id as string);
+  const [{ data: apps }, { data: scores }, { data: resumes }] = await Promise.all([
+    supabase
+      .from("applications")
+      .select("id, status, job_id, queue_date")
+      .eq("user_id", userId)
+      .in("job_id", jobIds),
+    supabase.from("job_scores").select("*").eq("user_id", userId).in("job_id", jobIds),
+    supabase
+      .from("resume_versions")
+      .select("job_id, pdf_path")
+      .eq("user_id", userId)
+      .in("job_id", jobIds),
+  ]);
+
+  const appByJob = new Map((apps ?? []).map((row) => [row.job_id as string, row]));
+  const scoreByJob = new Map((scores ?? []).map((row) => [row.job_id as string, row]));
+  const resumeByJob = new Map((resumes ?? []).map((row) => [row.job_id as string, row]));
+  const today = todayIsoDate();
+
+  return data.map((job) => {
+    const app = appByJob.get(job.id as string);
+    const score = scoreByJob.get(job.id as string);
+    const resume = resumeByJob.get(job.id as string);
+    const inTodayQueue =
+      app?.status === "queued" && (app.queue_date as string | null) === today;
+    return {
+      id: job.id as string,
+      source: "crawler" as const,
+      title: job.title as string,
+      company: job.company as string,
+      location: (job.location as string) || "",
+      applyUrl: job.apply_url as string,
+      description: (job.description as string) || "",
+      salary: (job.salary as string | null) ?? null,
+      remote: Boolean(job.remote),
+      tags: (job.tags as string[]) ?? [],
+      score: (score?.score as number) ?? 0,
+      levelFit: Boolean(score?.level_fit ?? true),
+      skillOverlap: (score?.skill_overlap as string[]) ?? [],
+      missingSkills: (score?.missing_skills as string[]) ?? [],
+      rationale:
+        (score?.rationale as string) ||
+        (inTodayQueue
+          ? "Already in today's ranked queue."
+          : "From a company career crawl. Add it to today's queue when you want to apply."),
+      status: (app?.status as QueueJob["status"]) ?? "saved",
+      applicationId: (app?.id as string) ?? null,
+      hasResume: Boolean(resume),
+      pdfPath: (resume?.pdf_path as string | null) ?? null,
+    };
+  });
+}
+
+/** Move a single job into today's ranked apply queue. */
+export async function enqueueJobToToday(userId: string, jobId: string) {
+  const supabase = getServiceClient();
+  const today = todayIsoDate();
+
+  const { data: job, error: jobError } = await supabase
+    .from("jobs")
+    .select("id, title, company")
+    .eq("id", jobId)
+    .maybeSingle();
+  if (jobError) throw jobError;
+  if (!job) throw new Error("Job not found");
+
+  const { data: existing, error: existingError } = await supabase
+    .from("applications")
+    .select("id, status")
+    .eq("user_id", userId)
+    .eq("job_id", jobId)
+    .maybeSingle();
+  if (existingError) throw existingError;
+
+  if (existing && ["applied", "interview", "rejected", "offer"].includes(existing.status as string)) {
+    throw new Error(`Already marked ${existing.status}`);
+  }
+
+  if (existing) {
+    const { error } = await supabase
+      .from("applications")
+      .update({
+        status: "queued",
+        queue_date: today,
+        updated_at: new Date().toISOString(),
+      })
+      .eq("id", existing.id);
+    if (error) throw error;
+  } else {
+    const { error } = await supabase.from("applications").insert({
+      user_id: userId,
+      job_id: jobId,
+      status: "queued",
+      queue_date: today,
+    });
+    if (error) throw error;
+  }
+
+  await supabase.from("job_scores").upsert(
+    {
+      user_id: userId,
+      job_id: jobId,
+      score: 65,
+      level_fit: true,
+      skill_overlap: [],
+      missing_skills: [],
+      rationale: `Added from company crawl · ${job.company as string}`,
+    },
+    { onConflict: "user_id,job_id" },
+  );
+
+  const { data: queued } = await supabase
+    .from("applications")
+    .select("job_id")
+    .eq("user_id", userId)
+    .eq("status", "queued")
+    .eq("queue_date", today);
+
+  await rebuildTodayQueue(
+    userId,
+    (queued ?? []).map((row) => row.job_id as string),
+  );
+
+  return { jobId, title: job.title as string, company: job.company as string };
 }

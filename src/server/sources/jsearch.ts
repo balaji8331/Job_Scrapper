@@ -47,6 +47,10 @@ export const jsearchSource: JobSource = {
     );
 
     return (data?.data ?? [])
+      .filter((job) => {
+        const country = (job.job_country ?? "").toLowerCase();
+        return !country || country === "in" || country.includes("india");
+      })
       .map((job) => {
         const locationLabel = [job.job_city, job.job_country].filter(Boolean).join(", ");
         return {

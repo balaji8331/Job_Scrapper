@@ -1,0 +1,5101 @@
+[
+  {
+    "name": "TCS",
+    "slug": "tcs",
+    "domain": "tcs.com",
+    "career_url": "https://www.tcs.com/careers",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Infosys",
+    "slug": "infosys",
+    "domain": "infosys.com",
+    "career_url": "https://www.infosys.com/careers/",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Wipro",
+    "slug": "wipro",
+    "domain": "wipro.com",
+    "career_url": "https://careers.wipro.com/viewalljobs/",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Accenture",
+    "slug": "accenture",
+    "domain": "accenture.com",
+    "career_url": "https://www.accenture.com/in-en/careers/jobsearch",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Capgemini",
+    "slug": "capgemini",
+    "domain": "capgemini.com",
+    "career_url": "https://www.capgemini.com/in-en/careers/job-search/",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cognizant",
+    "slug": "cognizant",
+    "domain": "cognizant.com",
+    "career_url": "https://careers.cognizant.com/global/en/search-results",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "HCLTech",
+    "slug": "hcltech",
+    "domain": "hcltech.com",
+    "career_url": "https://www.hcltech.com/careers",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tech Mahindra",
+    "slug": "tech-mahindra",
+    "domain": "techmahindra.com",
+    "career_url": "https://careers.techmahindra.com/",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "IBM",
+    "slug": "ibm",
+    "domain": "ibm.com",
+    "career_url": "https://www.ibm.com/careers/in-en/search/",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Oracle",
+    "slug": "oracle",
+    "domain": "oracle.com",
+    "career_url": "https://careers.oracle.com/",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Deloitte",
+    "slug": "deloitte",
+    "domain": "deloitte.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "EY",
+    "slug": "ey",
+    "domain": "ey.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "KPMG",
+    "slug": "kpmg",
+    "domain": "kpmg.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "PwC",
+    "slug": "pwc",
+    "domain": "pwc.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Publicis Sapient",
+    "slug": "publicis-sapient",
+    "domain": "publicissapient.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Thoughtworks",
+    "slug": "thoughtworks",
+    "domain": "thoughtworks.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Persistent",
+    "slug": "persistent",
+    "domain": "persistent.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Mphasis",
+    "slug": "mphasis",
+    "domain": "mphasis.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "LTIMindtree",
+    "slug": "ltimindtree",
+    "domain": "ltimindtree.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Coforge",
+    "slug": "coforge",
+    "domain": "coforge.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Hexaware",
+    "slug": "hexaware",
+    "domain": "hexaware.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Nagarro",
+    "slug": "nagarro",
+    "domain": "nagarro.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Fractal Analytics",
+    "slug": "fractal-analytics",
+    "domain": "fractal.ai",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Birlasoft",
+    "slug": "birlasoft",
+    "domain": "birlasoft.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Zensar",
+    "slug": "zensar",
+    "domain": "zensar.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cyient",
+    "slug": "cyient",
+    "domain": "cyient.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "L&T Technology Services",
+    "slug": "l-and-t-technology-services",
+    "domain": "ltts.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "KPIT",
+    "slug": "kpit",
+    "domain": "kpit.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Sonata Software",
+    "slug": "sonata-software",
+    "domain": "sonata-software.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Happiest Minds",
+    "slug": "happiest-minds",
+    "domain": "happiestminds.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Mindtree",
+    "slug": "mindtree",
+    "domain": "mindtree.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "UST",
+    "slug": "ust",
+    "domain": "ust.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Virtusa",
+    "slug": "virtusa",
+    "domain": "virtusa.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "CGI",
+    "slug": "cgi",
+    "domain": "cgi.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "DXC Technology",
+    "slug": "dxc-technology",
+    "domain": "dxc.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Atos",
+    "slug": "atos",
+    "domain": "atos.net",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Sutherland",
+    "slug": "sutherland",
+    "domain": "sutherlandglobal.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Genpact",
+    "slug": "genpact",
+    "domain": "genpact.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "WNS",
+    "slug": "wns",
+    "domain": "wns.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "EXL",
+    "slug": "exl",
+    "domain": "exlservice.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Firstsource",
+    "slug": "firstsource",
+    "domain": "firstsource.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Concentrix",
+    "slug": "concentrix",
+    "domain": "concentrix.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Teleperformance",
+    "slug": "teleperformance",
+    "domain": "teleperformance.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "TTEC",
+    "slug": "ttec",
+    "domain": "ttec.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Zoho",
+    "slug": "zoho",
+    "domain": "zoho.com",
+    "career_url": "https://careers.zoho.com/",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Freshworks",
+    "slug": "freshworks",
+    "domain": "freshworks.com",
+    "career_url": "https://boards.greenhouse.io/freshworks",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Razorpay",
+    "slug": "razorpay",
+    "domain": "razorpay.com",
+    "career_url": "https://jobs.lever.co/razorpay",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "PhonePe",
+    "slug": "phonepe",
+    "domain": "phonepe.com",
+    "career_url": "https://jobs.lever.co/phonepe",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "CRED",
+    "slug": "cred",
+    "domain": "cred.club",
+    "career_url": "https://jobs.lever.co/cred",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Groww",
+    "slug": "groww",
+    "domain": "groww.in",
+    "career_url": "https://boards.greenhouse.io/groww",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Zerodha",
+    "slug": "zerodha",
+    "domain": "zerodha.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Juspay",
+    "slug": "juspay",
+    "domain": "juspay.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cashfree",
+    "slug": "cashfree",
+    "domain": "cashfree.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Paytm",
+    "slug": "paytm",
+    "domain": "paytm.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Policybazaar",
+    "slug": "policybazaar",
+    "domain": "policybazaar.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Flipkart",
+    "slug": "flipkart",
+    "domain": "flipkart.com",
+    "career_url": "https://boards.greenhouse.io/flipkart",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Swiggy",
+    "slug": "swiggy",
+    "domain": "swiggy.in",
+    "career_url": "https://boards.greenhouse.io/swiggy",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Zomato",
+    "slug": "zomato",
+    "domain": "zomato.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Meesho",
+    "slug": "meesho",
+    "domain": "meesho.com",
+    "career_url": "https://boards.greenhouse.io/meesho",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Zepto",
+    "slug": "zepto",
+    "domain": "zeptonow.com",
+    "career_url": "https://jobs.lever.co/zepto",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Blinkit",
+    "slug": "blinkit",
+    "domain": "blinkit.com",
+    "career_url": "https://jobs.lever.co/blinkit",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "BigBasket",
+    "slug": "bigbasket",
+    "domain": "bigbasket.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Nykaa",
+    "slug": "nykaa",
+    "domain": "nykaa.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Myntra",
+    "slug": "myntra",
+    "domain": "myntra.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Urban Company",
+    "slug": "urban-company",
+    "domain": "urbancompany.com",
+    "career_url": "https://jobs.lever.co/urbancompany",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Ola",
+    "slug": "ola",
+    "domain": "olacabs.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Uber",
+    "slug": "uber",
+    "domain": "uber.com",
+    "career_url": "https://boards.greenhouse.io/uber",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Rapido",
+    "slug": "rapido",
+    "domain": "rapido.bike",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Delhivery",
+    "slug": "delhivery",
+    "domain": "delhivery.com",
+    "career_url": "https://jobs.lever.co/delhivery",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Shiprocket",
+    "slug": "shiprocket",
+    "domain": "shiprocket.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Udaan",
+    "slug": "udaan",
+    "domain": "udaan.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "OfBusiness",
+    "slug": "ofbusiness",
+    "domain": "ofbusiness.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "ElasticRun",
+    "slug": "elasticrun",
+    "domain": "elastic.run",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Postman",
+    "slug": "postman",
+    "domain": "postman.com",
+    "career_url": "https://boards.greenhouse.io/postman",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "BrowserStack",
+    "slug": "browserstack",
+    "domain": "browserstack.com",
+    "career_url": "https://boards.greenhouse.io/browserstack",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Chargebee",
+    "slug": "chargebee",
+    "domain": "chargebee.com",
+    "career_url": "https://boards.greenhouse.io/chargebee",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Hasura",
+    "slug": "hasura",
+    "domain": "hasura.io",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Druva",
+    "slug": "druva",
+    "domain": "druva.com",
+    "career_url": "https://boards.greenhouse.io/druva",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Innovaccer",
+    "slug": "innovaccer",
+    "domain": "innovaccer.com",
+    "career_url": "https://boards.greenhouse.io/innovaccer",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Yellow.ai",
+    "slug": "yellow-ai",
+    "domain": "yellow.ai",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Haptik",
+    "slug": "haptik",
+    "domain": "haptik.ai",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Unacademy",
+    "slug": "unacademy",
+    "domain": "unacademy.com",
+    "career_url": "https://jobs.lever.co/unacademy",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Vedantu",
+    "slug": "vedantu",
+    "domain": "vedantu.com",
+    "career_url": "https://jobs.lever.co/vedantu",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "upGrad",
+    "slug": "upgrad",
+    "domain": "upgrad.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "BYJU'S",
+    "slug": "byju-s",
+    "domain": "byjus.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Physics Wallah",
+    "slug": "physics-wallah",
+    "domain": "pw.live",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Dream11",
+    "slug": "dream11",
+    "domain": "dream11.com",
+    "career_url": "https://jobs.lever.co/dream11",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "MPL",
+    "slug": "mpl",
+    "domain": "mpl.live",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Games24x7",
+    "slug": "games24x7",
+    "domain": "games24x7.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "InMobi",
+    "slug": "inmobi",
+    "domain": "inmobi.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "ShareChat",
+    "slug": "sharechat",
+    "domain": "sharechat.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Moj",
+    "slug": "moj",
+    "domain": "mojapp.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Josh Talks",
+    "slug": "josh-talks",
+    "domain": "joshtalks.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Apna",
+    "slug": "apna",
+    "domain": "apna.co",
+    "career_url": "https://jobs.lever.co/apna",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Naukri",
+    "slug": "naukri",
+    "domain": "naukri.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Indeed India",
+    "slug": "indeed-india",
+    "domain": "indeed.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "LinkedIn",
+    "slug": "linkedin",
+    "domain": "linkedin.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Atlassian",
+    "slug": "atlassian",
+    "domain": "atlassian.com",
+    "career_url": "https://boards.greenhouse.io/atlassian",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Adobe",
+    "slug": "adobe",
+    "domain": "adobe.com",
+    "career_url": "https://boards.greenhouse.io/adobe",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Microsoft",
+    "slug": "microsoft",
+    "domain": "microsoft.com",
+    "career_url": "https://careers.microsoft.com/",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Google",
+    "slug": "google",
+    "domain": "google.com",
+    "career_url": "https://careers.google.com/jobs/results/?location=India",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Amazon",
+    "slug": "amazon",
+    "domain": "amazon.jobs",
+    "career_url": "https://www.amazon.jobs/en/search?base_query=&loc_query=India",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Apple",
+    "slug": "apple",
+    "domain": "apple.com",
+    "career_url": "https://jobs.apple.com/en-in/search",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Meta",
+    "slug": "meta",
+    "domain": "metacareers.com",
+    "career_url": "https://www.metacareers.com/jobs",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Netflix",
+    "slug": "netflix",
+    "domain": "netflix.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Salesforce",
+    "slug": "salesforce",
+    "domain": "salesforce.com",
+    "career_url": "https://careers.salesforce.com/",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "SAP",
+    "slug": "sap",
+    "domain": "sap.com",
+    "career_url": "https://jobs.sap.com/",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cisco",
+    "slug": "cisco",
+    "domain": "cisco.com",
+    "career_url": "https://jobs.cisco.com/",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Intel",
+    "slug": "intel",
+    "domain": "intel.com",
+    "career_url": "https://boards.greenhouse.io/intel",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Qualcomm",
+    "slug": "qualcomm",
+    "domain": "qualcomm.com",
+    "career_url": "https://boards.greenhouse.io/qualcomm",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Nvidia",
+    "slug": "nvidia",
+    "domain": "nvidia.com",
+    "career_url": "https://boards.greenhouse.io/nvidia",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "AMD",
+    "slug": "amd",
+    "domain": "amd.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Texas Instruments",
+    "slug": "texas-instruments",
+    "domain": "ti.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Analog Devices",
+    "slug": "analog-devices",
+    "domain": "analog.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Micron",
+    "slug": "micron",
+    "domain": "micron.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Samsung",
+    "slug": "samsung",
+    "domain": "samsung.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Sony",
+    "slug": "sony",
+    "domain": "sony.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Bosch",
+    "slug": "bosch",
+    "domain": "bosch.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Honeywell",
+    "slug": "honeywell",
+    "domain": "honeywell.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Siemens",
+    "slug": "siemens",
+    "domain": "siemens.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Schneider Electric",
+    "slug": "schneider-electric",
+    "domain": "se.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "ABB",
+    "slug": "abb",
+    "domain": "abb.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "GE",
+    "slug": "ge",
+    "domain": "ge.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Philips",
+    "slug": "philips",
+    "domain": "philips.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "JPMorgan",
+    "slug": "jpmorgan",
+    "domain": "jpmorganchase.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Goldman Sachs",
+    "slug": "goldman-sachs",
+    "domain": "goldmansachs.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Morgan Stanley",
+    "slug": "morgan-stanley",
+    "domain": "morganstanley.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Barclays",
+    "slug": "barclays",
+    "domain": "barclays.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "HSBC",
+    "slug": "hsbc",
+    "domain": "hsbc.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Standard Chartered",
+    "slug": "standard-chartered",
+    "domain": "sc.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Wells Fargo",
+    "slug": "wells-fargo",
+    "domain": "wellsfargo.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Citi",
+    "slug": "citi",
+    "domain": "citi.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Deutsche Bank",
+    "slug": "deutsche-bank",
+    "domain": "db.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "BNY Mellon",
+    "slug": "bny-mellon",
+    "domain": "bnymellon.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Bank of America",
+    "slug": "bank-of-america",
+    "domain": "bankofamerica.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "American Express",
+    "slug": "american-express",
+    "domain": "americanexpress.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Mastercard",
+    "slug": "mastercard",
+    "domain": "mastercard.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Visa",
+    "slug": "visa",
+    "domain": "visa.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "PayPal",
+    "slug": "paypal",
+    "domain": "paypal.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Optum",
+    "slug": "optum",
+    "domain": "optum.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "UnitedHealth Group",
+    "slug": "unitedhealth-group",
+    "domain": "unitedhealthgroup.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "IQVIA",
+    "slug": "iqvia",
+    "domain": "iqvia.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Novartis",
+    "slug": "novartis",
+    "domain": "novartis.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Pfizer",
+    "slug": "pfizer",
+    "domain": "pfizer.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "AstraZeneca",
+    "slug": "astrazeneca",
+    "domain": "astrazeneca.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Dr Reddy's",
+    "slug": "dr-reddy-s",
+    "domain": "drreddys.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Sun Pharma",
+    "slug": "sun-pharma",
+    "domain": "sunpharma.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Biocon",
+    "slug": "biocon",
+    "domain": "biocon.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Stripe",
+    "slug": "stripe",
+    "domain": "stripe.com",
+    "career_url": "https://boards.greenhouse.io/stripe",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cloudflare",
+    "slug": "cloudflare",
+    "domain": "cloudflare.com",
+    "career_url": "https://boards.greenhouse.io/cloudflare",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Databricks",
+    "slug": "databricks",
+    "domain": "databricks.com",
+    "career_url": "https://boards.greenhouse.io/databricks",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "MongoDB",
+    "slug": "mongodb",
+    "domain": "mongodb.com",
+    "career_url": "https://boards.greenhouse.io/mongodb",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Elastic",
+    "slug": "elastic",
+    "domain": "elastic.co",
+    "career_url": "https://boards.greenhouse.io/elastic",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Twilio",
+    "slug": "twilio",
+    "domain": "twilio.com",
+    "career_url": "https://boards.greenhouse.io/twilio",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Okta",
+    "slug": "okta",
+    "domain": "okta.com",
+    "career_url": "https://boards.greenhouse.io/okta",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Snowflake",
+    "slug": "snowflake",
+    "domain": "snowflake.com",
+    "career_url": "https://boards.greenhouse.io/snowflake",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Datadog",
+    "slug": "datadog",
+    "domain": "datadoghq.com",
+    "career_url": "https://boards.greenhouse.io/datadog",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "HashiCorp",
+    "slug": "hashicorp",
+    "domain": "hashicorp.com",
+    "career_url": "https://boards.greenhouse.io/hashicorp",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "GitLab",
+    "slug": "gitlab",
+    "domain": "gitlab.com",
+    "career_url": "https://boards.greenhouse.io/gitlab",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Figma",
+    "slug": "figma",
+    "domain": "figma.com",
+    "career_url": "https://boards.greenhouse.io/figma",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Notion",
+    "slug": "notion",
+    "domain": "notion.so",
+    "career_url": "https://boards.greenhouse.io/notion",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Canva",
+    "slug": "canva",
+    "domain": "canva.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Spotify",
+    "slug": "spotify",
+    "domain": "spotify.com",
+    "career_url": "https://boards.greenhouse.io/spotify",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Airbnb",
+    "slug": "airbnb",
+    "domain": "airbnb.com",
+    "career_url": "https://boards.greenhouse.io/airbnb",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Booking.com",
+    "slug": "booking-com",
+    "domain": "booking.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Expedia",
+    "slug": "expedia",
+    "domain": "expedia.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "MakeMyTrip",
+    "slug": "makemytrip",
+    "domain": "makemytrip.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cleartrip",
+    "slug": "cleartrip",
+    "domain": "cleartrip.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Goibibo",
+    "slug": "goibibo",
+    "domain": "goibibo.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Ixigo",
+    "slug": "ixigo",
+    "domain": "ixigo.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "RedBus",
+    "slug": "redbus",
+    "domain": "redbus.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Oyo",
+    "slug": "oyo",
+    "domain": "oyorooms.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Treebo",
+    "slug": "treebo",
+    "domain": "treebo.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Licious",
+    "slug": "licious",
+    "domain": "licious.in",
+    "career_url": "https://jobs.lever.co/licious",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Dunzo",
+    "slug": "dunzo",
+    "domain": "dunzo.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Porter",
+    "slug": "porter",
+    "domain": "porter.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "BlackBuck",
+    "slug": "blackbuck",
+    "domain": "blackbuck.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Rivigo",
+    "slug": "rivigo",
+    "domain": "rivigo.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Slice",
+    "slug": "slice",
+    "domain": "slice.it",
+    "career_url": "https://jobs.lever.co/slice",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Jupiter",
+    "slug": "jupiter",
+    "domain": "jupiter.money",
+    "career_url": "https://jobs.lever.co/jupiter",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Fi Money",
+    "slug": "fi-money",
+    "domain": "fi.money",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "FamPay",
+    "slug": "fampay",
+    "domain": "fampay.in",
+    "career_url": "https://jobs.lever.co/fampay",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Smallcase",
+    "slug": "smallcase",
+    "domain": "smallcase.com",
+    "career_url": "https://jobs.lever.co/smallcase",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Upstox",
+    "slug": "upstox",
+    "domain": "upstox.com",
+    "career_url": "https://jobs.lever.co/upstox",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "CoinDCX",
+    "slug": "coindcx",
+    "domain": "coindcx.com",
+    "career_url": "https://jobs.lever.co/coindcx",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "WazirX",
+    "slug": "wazirx",
+    "domain": "wazirx.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Coinbase",
+    "slug": "coinbase",
+    "domain": "coinbase.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "LambdaTest",
+    "slug": "lambdatest",
+    "domain": "lambdatest.com",
+    "career_url": "https://boards.greenhouse.io/lambdatest",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Whatfix",
+    "slug": "whatfix",
+    "domain": "whatfix.com",
+    "career_url": "https://boards.greenhouse.io/whatfix",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Browserstack Engineering",
+    "slug": "browserstack-engineering",
+    "domain": "browserstack.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cleartax",
+    "slug": "cleartax",
+    "domain": "cleartax.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Khatabook",
+    "slug": "khatabook",
+    "domain": "khatabook.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "OkCredit",
+    "slug": "okcredit",
+    "domain": "okcredit.in",
+    "career_url": "https://jobs.lever.co/okcredit",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "BharatPe",
+    "slug": "bharatpe",
+    "domain": "bharatpe.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "MobiKwik",
+    "slug": "mobikwik",
+    "domain": "mobikwik.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Pine Labs",
+    "slug": "pine-labs",
+    "domain": "pinelabs.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "BillDesk",
+    "slug": "billdesk",
+    "domain": "billdesk.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "CleverTap",
+    "slug": "clevertap",
+    "domain": "clevertap.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "MoEngage",
+    "slug": "moengage",
+    "domain": "moengage.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "WebEngage",
+    "slug": "webengage",
+    "domain": "webengage.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "VWO",
+    "slug": "vwo",
+    "domain": "vwo.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Browserling",
+    "slug": "browserling",
+    "domain": "browserling.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Testim",
+    "slug": "testim",
+    "domain": "testim.io",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "BrowserStack India",
+    "slug": "browserstack-india",
+    "domain": "browserstack.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Rippling",
+    "slug": "rippling",
+    "domain": "rippling.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Darwinbox",
+    "slug": "darwinbox",
+    "domain": "darwinbox.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "PeopleStrong",
+    "slug": "peoplestrong",
+    "domain": "peoplestrong.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Keka",
+    "slug": "keka",
+    "domain": "keka.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "GreyOrange",
+    "slug": "greyorange",
+    "domain": "greyorange.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Addverb",
+    "slug": "addverb",
+    "domain": "addverb.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Ather Energy",
+    "slug": "ather-energy",
+    "domain": "atherenergy.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Ola Electric",
+    "slug": "ola-electric",
+    "domain": "olaelectric.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tata Motors",
+    "slug": "tata-motors",
+    "domain": "tatamotors.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Mahindra",
+    "slug": "mahindra",
+    "domain": "mahindra.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Reliance Industries",
+    "slug": "reliance-industries",
+    "domain": "ril.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Jio",
+    "slug": "jio",
+    "domain": "jio.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Reliance Retail",
+    "slug": "reliance-retail",
+    "domain": "relianceretail.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tata Consultancy",
+    "slug": "tata-consultancy",
+    "domain": "tcs.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tata Digital",
+    "slug": "tata-digital",
+    "domain": "tatadigital.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tata Elxsi",
+    "slug": "tata-elxsi",
+    "domain": "tataelxsi.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tata Communications",
+    "slug": "tata-communications",
+    "domain": "tatacommunications.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Bharti Airtel",
+    "slug": "bharti-airtel",
+    "domain": "airtel.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Vodafone Idea",
+    "slug": "vodafone-idea",
+    "domain": "vodafoneidea.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Reliance Jio Platforms",
+    "slug": "reliance-jio-platforms",
+    "domain": "jio.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Infosys BPM",
+    "slug": "infosys-bpm",
+    "domain": "infosys.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Wipro Digital",
+    "slug": "wipro-digital",
+    "domain": "wipro.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Accenture Song",
+    "slug": "accenture-song",
+    "domain": "accenture.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Capgemini Engineering",
+    "slug": "capgemini-engineering",
+    "domain": "capgemini.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cognizant Digital",
+    "slug": "cognizant-digital",
+    "domain": "cognizant.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Target",
+    "slug": "target",
+    "domain": "target.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Walmart Global Tech",
+    "slug": "walmart-global-tech",
+    "domain": "walmart.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Target India",
+    "slug": "target-india",
+    "domain": "target.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Lowe's India",
+    "slug": "lowe-s-india",
+    "domain": "lowes.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Home Depot",
+    "slug": "home-depot",
+    "domain": "homedepot.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Best Buy",
+    "slug": "best-buy",
+    "domain": "bestbuy.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Nordstrom",
+    "slug": "nordstrom",
+    "domain": "nordstrom.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Macy's Tech",
+    "slug": "macy-s-tech",
+    "domain": "macys.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Thomson Reuters",
+    "slug": "thomson-reuters",
+    "domain": "thomsonreuters.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "S&P Global",
+    "slug": "s-and-p-global",
+    "domain": "spglobal.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Moody's",
+    "slug": "moody-s",
+    "domain": "moodys.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Fitch",
+    "slug": "fitch",
+    "domain": "fitchratings.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Morningstar",
+    "slug": "morningstar",
+    "domain": "morningstar.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Bloomberg",
+    "slug": "bloomberg",
+    "domain": "bloomberg.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Reuters",
+    "slug": "reuters",
+    "domain": "reuters.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "The Hindu",
+    "slug": "the-hindu",
+    "domain": "thehindu.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Times Internet",
+    "slug": "times-internet",
+    "domain": "timesinternet.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Network18",
+    "slug": "network18",
+    "domain": "network18online.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Hotstar",
+    "slug": "hotstar",
+    "domain": "hotstar.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "SonyLIV",
+    "slug": "sonyliv",
+    "domain": "sonyliv.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Zee5",
+    "slug": "zee5",
+    "domain": "zee5.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Voot",
+    "slug": "voot",
+    "domain": "voot.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "JioCinema",
+    "slug": "jiocinema",
+    "domain": "jiocinema.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Curtó",
+    "slug": "curt",
+    "domain": "curto.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Zoho Corp",
+    "slug": "zoho-corp",
+    "domain": "zohocorp.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "ManageEngine",
+    "slug": "manageengine",
+    "domain": "manageengine.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Site24x7",
+    "slug": "site24x7",
+    "domain": "site24x7.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Freshdesk",
+    "slug": "freshdesk",
+    "domain": "freshdesk.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Chargebee India",
+    "slug": "chargebee-india",
+    "domain": "chargebee.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Ivy Comptech",
+    "slug": "ivy-comptech",
+    "domain": "ivycomptech.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "GSN Games",
+    "slug": "gsn-games",
+    "domain": "gsngames.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "EA India",
+    "slug": "ea-india",
+    "domain": "ea.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Ubisoft",
+    "slug": "ubisoft",
+    "domain": "ubisoft.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Zynga",
+    "slug": "zynga",
+    "domain": "zynga.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Rockstar Games",
+    "slug": "rockstar-games",
+    "domain": "rockstargames.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Nagarro India",
+    "slug": "nagarro-india",
+    "domain": "nagarro.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Epam",
+    "slug": "epam",
+    "domain": "epam.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Globant",
+    "slug": "globant",
+    "domain": "globant.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Endava",
+    "slug": "endava",
+    "domain": "endava.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "SoftServe",
+    "slug": "softserve",
+    "domain": "softserveinc.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Luxoft",
+    "slug": "luxoft",
+    "domain": "luxoft.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tietoevry",
+    "slug": "tietoevry",
+    "domain": "tietoevry.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Capco",
+    "slug": "capco",
+    "domain": "capco.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Slalom",
+    "slug": "slalom",
+    "domain": "slalom.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Accenture Strategy",
+    "slug": "accenture-strategy",
+    "domain": "accenture.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "McKinsey Digital",
+    "slug": "mckinsey-digital",
+    "domain": "mckinsey.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "BCG",
+    "slug": "bcg",
+    "domain": "bcg.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Bain",
+    "slug": "bain",
+    "domain": "bain.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Oliver Wyman",
+    "slug": "oliver-wyman",
+    "domain": "oliverwyman.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "A.T. Kearney",
+    "slug": "a-t-kearney",
+    "domain": "kearney.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Quantiphi",
+    "slug": "quantiphi",
+    "domain": "quantiphi.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "LatentView",
+    "slug": "latentview",
+    "domain": "latentview.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Mu Sigma",
+    "slug": "mu-sigma",
+    "domain": "mu-sigma.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tiger Analytics",
+    "slug": "tiger-analytics",
+    "domain": "tigeranalytics.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Absolutdata",
+    "slug": "absolutdata",
+    "domain": "absolutdata.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Gramener",
+    "slug": "gramener",
+    "domain": "gramener.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "MathCo",
+    "slug": "mathco",
+    "domain": "mathco.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Brillio",
+    "slug": "brillio",
+    "domain": "brillio.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "ValueLabs",
+    "slug": "valuelabs",
+    "domain": "valuelabs.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Magna",
+    "slug": "magna",
+    "domain": "magna.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Harman",
+    "slug": "harman",
+    "domain": "harman.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Visteon",
+    "slug": "visteon",
+    "domain": "visteon.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Continental",
+    "slug": "continental",
+    "domain": "continental.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Aptiv",
+    "slug": "aptiv",
+    "domain": "aptiv.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Robert Bosch",
+    "slug": "robert-bosch",
+    "domain": "bosch.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "ZF",
+    "slug": "zf",
+    "domain": "zf.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Caterpillar",
+    "slug": "caterpillar",
+    "domain": "caterpillar.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "John Deere",
+    "slug": "john-deere",
+    "domain": "deere.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cummins",
+    "slug": "cummins",
+    "domain": "cummins.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Eaton",
+    "slug": "eaton",
+    "domain": "eaton.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Shell",
+    "slug": "shell",
+    "domain": "shell.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "BP",
+    "slug": "bp",
+    "domain": "bp.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "ExxonMobil",
+    "slug": "exxonmobil",
+    "domain": "exxonmobil.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Schlumberger",
+    "slug": "schlumberger",
+    "domain": "slb.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Halliburton",
+    "slug": "halliburton",
+    "domain": "halliburton.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Larsen & Toubro",
+    "slug": "larsen-and-toubro",
+    "domain": "larsentoubro.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Adani",
+    "slug": "adani",
+    "domain": "adani.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Reliance New Energy",
+    "slug": "reliance-new-energy",
+    "domain": "ril.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "NTPC",
+    "slug": "ntpc",
+    "domain": "ntpc.co.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Power Grid",
+    "slug": "power-grid",
+    "domain": "powergrid.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "BHEL",
+    "slug": "bhel",
+    "domain": "bhel.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "ISRO",
+    "slug": "isro",
+    "domain": "isro.gov.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "DRDO",
+    "slug": "drdo",
+    "domain": "drdo.gov.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "CDAC",
+    "slug": "cdac",
+    "domain": "cdac.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "NIC",
+    "slug": "nic",
+    "domain": "nic.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "SBI",
+    "slug": "sbi",
+    "domain": "sbi.co.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "HDFC Bank",
+    "slug": "hdfc-bank",
+    "domain": "hdfcbank.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "ICICI Bank",
+    "slug": "icici-bank",
+    "domain": "icicibank.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Axis Bank",
+    "slug": "axis-bank",
+    "domain": "axisbank.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Kotak",
+    "slug": "kotak",
+    "domain": "kotak.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Yes Bank",
+    "slug": "yes-bank",
+    "domain": "yesbank.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "IDFC First",
+    "slug": "idfc-first",
+    "domain": "idfcfirstbank.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "IndusInd",
+    "slug": "indusind",
+    "domain": "indusind.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Bajaj Finserv",
+    "slug": "bajaj-finserv",
+    "domain": "bajajfinserv.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "HDFC Life",
+    "slug": "hdfc-life",
+    "domain": "hdfclife.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "ICICI Lombard",
+    "slug": "icici-lombard",
+    "domain": "icicilombard.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Max Life",
+    "slug": "max-life",
+    "domain": "maxlifeinsurance.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "LIC",
+    "slug": "lic",
+    "domain": "licindia.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "SBI Life",
+    "slug": "sbi-life",
+    "domain": "sbilife.co.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "NSE",
+    "slug": "nse",
+    "domain": "nseindia.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "BSE",
+    "slug": "bse",
+    "domain": "bseindia.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "CDSL",
+    "slug": "cdsl",
+    "domain": "cdslindia.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "NSDL",
+    "slug": "nsdl",
+    "domain": "nsdl.co.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Clearing Corporation",
+    "slug": "clearing-corporation",
+    "domain": "ccilindia.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "National Payments Corporation",
+    "slug": "national-payments-corporation",
+    "domain": "npci.org.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "UPI NPCI",
+    "slug": "upi-npci",
+    "domain": "npci.org.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "PhonePe Switch",
+    "slug": "phonepe-switch",
+    "domain": "phonepe.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Google Pay",
+    "slug": "google-pay",
+    "domain": "google.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Amazon Pay",
+    "slug": "amazon-pay",
+    "domain": "amazon.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tata Neu",
+    "slug": "tata-neu",
+    "domain": "tataneu.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Reliance Trends",
+    "slug": "reliance-trends",
+    "domain": "reliancetrends.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "AJIO",
+    "slug": "ajio",
+    "domain": "ajio.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Shoppers Stop",
+    "slug": "shoppers-stop",
+    "domain": "shoppersstop.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Lifestyle",
+    "slug": "lifestyle",
+    "domain": "lifestylestores.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Westside",
+    "slug": "westside",
+    "domain": "westside.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Titan",
+    "slug": "titan",
+    "domain": "titan.co.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tanishq",
+    "slug": "tanishq",
+    "domain": "tanishq.co.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Boat",
+    "slug": "boat",
+    "domain": "boat-lifestyle.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Noise",
+    "slug": "noise",
+    "domain": "gonoise.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Fire-Boltt",
+    "slug": "fire-boltt",
+    "domain": "fire-boltt.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Lenskart",
+    "slug": "lenskart",
+    "domain": "lenskart.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Purplle",
+    "slug": "purplle",
+    "domain": "purplle.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Sugar Cosmetics",
+    "slug": "sugar-cosmetics",
+    "domain": "sugarcosmetics.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Mamaearth",
+    "slug": "mamaearth",
+    "domain": "mamaearth.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "The Man Company",
+    "slug": "the-man-company",
+    "domain": "themancompany.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Bewakoof",
+    "slug": "bewakoof",
+    "domain": "bewakoof.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Snitch",
+    "slug": "snitch",
+    "domain": "snitch.co.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cult.fit",
+    "slug": "cult-fit",
+    "domain": "cult.fit",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "HealthifyMe",
+    "slug": "healthifyme",
+    "domain": "healthifyme.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Practo",
+    "slug": "practo",
+    "domain": "practo.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "1mg",
+    "slug": "1mg",
+    "domain": "1mg.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "PharmEasy",
+    "slug": "pharmeasy",
+    "domain": "pharmeasy.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Netmeds",
+    "slug": "netmeds",
+    "domain": "netmeds.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Medlife",
+    "slug": "medlife",
+    "domain": "medlife.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Apollo 24/7",
+    "slug": "apollo-24-7",
+    "domain": "apollo247.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tata 1mg",
+    "slug": "tata-1mg",
+    "domain": "1mg.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Orange Health",
+    "slug": "orange-health",
+    "domain": "orangehealth.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Redcliffe Labs",
+    "slug": "redcliffe-labs",
+    "domain": "redcliffelabs.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Thyrocare",
+    "slug": "thyrocare",
+    "domain": "thyrocare.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Metropolis",
+    "slug": "metropolis",
+    "domain": "metropolisindia.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Lal PathLabs",
+    "slug": "lal-pathlabs",
+    "domain": "lalpathlabs.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Medanta",
+    "slug": "medanta",
+    "domain": "medanta.org",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Fortis",
+    "slug": "fortis",
+    "domain": "fortishealthcare.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Manipal Hospitals",
+    "slug": "manipal-hospitals",
+    "domain": "manipalhospitals.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Narayana Health",
+    "slug": "narayana-health",
+    "domain": "narayanahealth.org",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Aster DM",
+    "slug": "aster-dm",
+    "domain": "asterdmhealthcare.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cloudnine",
+    "slug": "cloudnine",
+    "domain": "cloudninecare.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "DocsApp",
+    "slug": "docsapp",
+    "domain": "docsapp.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "mfine",
+    "slug": "mfine",
+    "domain": "mfine.co",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cure.fit",
+    "slug": "cure-fit",
+    "domain": "cult.fit",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Rippling India",
+    "slug": "rippling-india",
+    "domain": "rippling.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Deel",
+    "slug": "deel",
+    "domain": "deel.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Remote.com",
+    "slug": "remote-com",
+    "domain": "remote.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Gusto",
+    "slug": "gusto",
+    "domain": "gusto.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Zenefits",
+    "slug": "zenefits",
+    "domain": "zenefits.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Workday",
+    "slug": "workday",
+    "domain": "workday.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "ServiceNow",
+    "slug": "servicenow",
+    "domain": "servicenow.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "UiPath",
+    "slug": "uipath",
+    "domain": "uipath.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Automation Anywhere",
+    "slug": "automation-anywhere",
+    "domain": "automationanywhere.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Blue Prism",
+    "slug": "blue-prism",
+    "domain": "blueprism.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Celonis",
+    "slug": "celonis",
+    "domain": "celonis.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Palantir",
+    "slug": "palantir",
+    "domain": "palantir.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "C3.ai",
+    "slug": "c3-ai",
+    "domain": "c3.ai",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "DataRobot",
+    "slug": "datarobot",
+    "domain": "datarobot.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "H2O.ai",
+    "slug": "h2o-ai",
+    "domain": "h2o.ai",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Weights & Biases",
+    "slug": "weights-and-biases",
+    "domain": "wandb.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Hugging Face",
+    "slug": "hugging-face",
+    "domain": "huggingface.co",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "OpenAI",
+    "slug": "openai",
+    "domain": "openai.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "domain": "anthropic.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cohere",
+    "slug": "cohere",
+    "domain": "cohere.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Scale AI",
+    "slug": "scale-ai",
+    "domain": "scale.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Anduril",
+    "slug": "anduril",
+    "domain": "anduril.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Shield AI",
+    "slug": "shield-ai",
+    "domain": "shield.ai",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Samsara",
+    "slug": "samsara",
+    "domain": "samsara.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cruise",
+    "slug": "cruise",
+    "domain": "getcruise.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Waymo",
+    "slug": "waymo",
+    "domain": "waymo.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Zoox",
+    "slug": "zoox",
+    "domain": "zoox.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Rivian",
+    "slug": "rivian",
+    "domain": "rivian.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tesla",
+    "slug": "tesla",
+    "domain": "tesla.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Lucid",
+    "slug": "lucid",
+    "domain": "lucidmotors.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "NIO",
+    "slug": "nio",
+    "domain": "nio.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "BYD",
+    "slug": "byd",
+    "domain": "byd.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tata Passenger Electric",
+    "slug": "tata-passenger-electric",
+    "domain": "tatamotors.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "ReNew Power",
+    "slug": "renew-power",
+    "domain": "renew.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Greenko",
+    "slug": "greenko",
+    "domain": "greenkogroup.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Azure Power",
+    "slug": "azure-power",
+    "domain": "azurepower.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Adani Green",
+    "slug": "adani-green",
+    "domain": "adanigreenenergy.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Sterlite Power",
+    "slug": "sterlite-power",
+    "domain": "sterlitepower.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Suzlon",
+    "slug": "suzlon",
+    "domain": "suzlon.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Inox Wind",
+    "slug": "inox-wind",
+    "domain": "inoxwind.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Waaree",
+    "slug": "waaree",
+    "domain": "waaree.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tata Power Solar",
+    "slug": "tata-power-solar",
+    "domain": "tatapowersolar.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Exide",
+    "slug": "exide",
+    "domain": "exideindustries.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Amara Raja",
+    "slug": "amara-raja",
+    "domain": "amararajabatteries.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Ola Battery",
+    "slug": "ola-battery",
+    "domain": "olaelectric.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Log9",
+    "slug": "log9",
+    "domain": "log9materials.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Ather",
+    "slug": "ather",
+    "domain": "atherenergy.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Ultraviolette",
+    "slug": "ultraviolette",
+    "domain": "ultraviolette.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Simple Energy",
+    "slug": "simple-energy",
+    "domain": "simpleenergy.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Matter",
+    "slug": "matter",
+    "domain": "matter.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Bounce",
+    "slug": "bounce",
+    "domain": "bounceshare.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Yulu",
+    "slug": "yulu",
+    "domain": "yulu.bike",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Vogo",
+    "slug": "vogo",
+    "domain": "vogo.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Zypp Electric",
+    "slug": "zypp-electric",
+    "domain": "zypp.app",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Euler Motors",
+    "slug": "euler-motors",
+    "domain": "eulermotors.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Altigreen",
+    "slug": "altigreen",
+    "domain": "altigreen.in",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Piaggio",
+    "slug": "piaggio",
+    "domain": "piaggio.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "TVS Motor",
+    "slug": "tvs-motor",
+    "domain": "tvsmotor.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Bajaj Auto",
+    "slug": "bajaj-auto",
+    "domain": "bajajauto.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Hero MotoCorp",
+    "slug": "hero-motocorp",
+    "domain": "heromotocorp.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Royal Enfield",
+    "slug": "royal-enfield",
+    "domain": "royalenfield.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Mahindra Electric",
+    "slug": "mahindra-electric",
+    "domain": "mahindraelectric.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "HubSpot",
+    "slug": "hubspot",
+    "domain": "hubspot.com",
+    "career_url": "https://boards.greenhouse.io/hubspot",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Zendesk",
+    "slug": "zendesk",
+    "domain": "zendesk.com",
+    "career_url": "https://boards.greenhouse.io/zendesk",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Asana",
+    "slug": "asana",
+    "domain": "asana.com",
+    "career_url": "https://boards.greenhouse.io/asana",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Dropbox",
+    "slug": "dropbox",
+    "domain": "dropbox.com",
+    "career_url": "https://boards.greenhouse.io/dropbox",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Box",
+    "slug": "box",
+    "domain": "box.com",
+    "career_url": "https://boards.greenhouse.io/boxinc",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "DocuSign",
+    "slug": "docusign",
+    "domain": "docusign.com",
+    "career_url": "https://boards.greenhouse.io/docusign",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Pinterest",
+    "slug": "pinterest",
+    "domain": "pinterest.com",
+    "career_url": "https://boards.greenhouse.io/pinterest",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Reddit",
+    "slug": "reddit",
+    "domain": "reddit.com",
+    "career_url": "https://boards.greenhouse.io/reddit",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Discord",
+    "slug": "discord",
+    "domain": "discord.com",
+    "career_url": "https://boards.greenhouse.io/discord",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Airtable",
+    "slug": "airtable",
+    "domain": "airtable.com",
+    "career_url": "https://boards.greenhouse.io/airtable",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Amplitude",
+    "slug": "amplitude",
+    "domain": "amplitude.com",
+    "career_url": "https://boards.greenhouse.io/amplitude",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Braze",
+    "slug": "braze",
+    "domain": "braze.com",
+    "career_url": "https://boards.greenhouse.io/braze",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Mixpanel",
+    "slug": "mixpanel",
+    "domain": "mixpanel.com",
+    "career_url": "https://boards.greenhouse.io/mixpanel",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Clerk",
+    "slug": "clerk",
+    "domain": "clerk.com",
+    "career_url": "https://boards.greenhouse.io/clerk",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Grammarly",
+    "slug": "grammarly",
+    "domain": "grammarly.com",
+    "career_url": "https://boards.greenhouse.io/grammarly",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Coursera",
+    "slug": "coursera",
+    "domain": "coursera.org",
+    "career_url": "https://boards.greenhouse.io/coursera",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Duolingo",
+    "slug": "duolingo",
+    "domain": "duolingo.com",
+    "career_url": "https://boards.greenhouse.io/duolingo",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cloudinary",
+    "slug": "cloudinary",
+    "domain": "cloudinary.com",
+    "career_url": "https://boards.greenhouse.io/cloudinary",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Sumo Logic",
+    "slug": "sumo-logic",
+    "domain": "sumologic.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "New Relic",
+    "slug": "new-relic",
+    "domain": "newrelic.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Splunk",
+    "slug": "splunk",
+    "domain": "splunk.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "PagerDuty",
+    "slug": "pagerduty",
+    "domain": "pagerduty.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "LaunchDarkly",
+    "slug": "launchdarkly",
+    "domain": "launchdarkly.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Segment",
+    "slug": "segment",
+    "domain": "segment.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Twilio SendGrid",
+    "slug": "twilio-sendgrid",
+    "domain": "sendgrid.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Auth0",
+    "slug": "auth0",
+    "domain": "auth0.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Contentful",
+    "slug": "contentful",
+    "domain": "contentful.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Sanity",
+    "slug": "sanity",
+    "domain": "sanity.io",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Vercel",
+    "slug": "vercel",
+    "domain": "vercel.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Netlify",
+    "slug": "netlify",
+    "domain": "netlify.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Supabase",
+    "slug": "supabase",
+    "domain": "supabase.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "PlanetScale",
+    "slug": "planetscale",
+    "domain": "planetscale.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Neon",
+    "slug": "neon",
+    "domain": "neon.tech",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Railway",
+    "slug": "railway",
+    "domain": "railway.app",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Render",
+    "slug": "render",
+    "domain": "render.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Fly.io",
+    "slug": "fly-io",
+    "domain": "fly.io",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "DigitalOcean",
+    "slug": "digitalocean",
+    "domain": "digitalocean.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Linode",
+    "slug": "linode",
+    "domain": "linode.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Akamai",
+    "slug": "akamai",
+    "domain": "akamai.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Fastly",
+    "slug": "fastly",
+    "domain": "fastly.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cloudflare India",
+    "slug": "cloudflare-india",
+    "domain": "cloudflare.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "ThoughtSpot",
+    "slug": "thoughtspot",
+    "domain": "thoughtspot.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Alteryx",
+    "slug": "alteryx",
+    "domain": "alteryx.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Tableau",
+    "slug": "tableau",
+    "domain": "tableau.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Looker",
+    "slug": "looker",
+    "domain": "looker.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Sisense",
+    "slug": "sisense",
+    "domain": "sisense.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Qlik",
+    "slug": "qlik",
+    "domain": "qlik.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Informatica",
+    "slug": "informatica",
+    "domain": "informatica.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Talend",
+    "slug": "talend",
+    "domain": "talend.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Fivetran",
+    "slug": "fivetran",
+    "domain": "fivetran.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Airbyte",
+    "slug": "airbyte",
+    "domain": "airbyte.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "dbt Labs",
+    "slug": "dbt-labs",
+    "domain": "getdbt.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Cohesity",
+    "slug": "cohesity",
+    "domain": "cohesity.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Nutanix",
+    "slug": "nutanix",
+    "domain": "nutanix.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Pure Storage",
+    "slug": "pure-storage",
+    "domain": "purestorage.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "NetApp",
+    "slug": "netapp",
+    "domain": "netapp.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Veritas",
+    "slug": "veritas",
+    "domain": "veritas.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Commvault",
+    "slug": "commvault",
+    "domain": "commvault.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Rubrik",
+    "slug": "rubrik",
+    "domain": "rubrik.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "name": "Veeam",
+    "slug": "veeam",
+    "domain": "veeam.com",
+    "preferred_cities": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai"
+    ]
+  }
+]
